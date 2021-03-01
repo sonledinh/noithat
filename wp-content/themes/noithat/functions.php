@@ -4,13 +4,15 @@
  *
  * @link https://developer.wordpress.org/themes/basics/theme-functions/
  *
- * @package noithat
+ * @package noithat 
  */
 
 if ( ! defined( '_S_VERSION' ) ) {
 	// Replace the version number of the theme on each release.
 	define( '_S_VERSION', '1.0.0' );
 }
+
+define('__BASE_URL__', get_template_directory_uri().'/assets');
 
 if ( ! function_exists( 'noithat_setup' ) ) :
 	/**
@@ -134,20 +136,26 @@ function noithat_widgets_init() {
 		)
 	);
 }
-add_action( 'widgets_init', 'noithat_widgets_init' );
+add_action( 'widgets_init', 'noithat_widgets_init' ); 
 
 /**
  * Enqueue scripts and styles.
  */
 function noithat_scripts() {
-	wp_enqueue_style( 'noithat-style', get_stylesheet_uri(), array(), _S_VERSION );
-	wp_style_add_data( 'noithat-style', 'rtl', 'replace' );
+	wp_enqueue_style( 'bootstrap', __BASE_URL__.'/css/bootstrap.min.css' , array(), _S_VERSION );
+	wp_enqueue_style( 'font-awesome', __BASE_URL__.'/css/font-awesome.css' , array(), _S_VERSION );
+	wp_enqueue_style( 'slick', __BASE_URL__.'/css/slick.min.css' , array(), _S_VERSION );
+	wp_enqueue_style( 'slick-theme', __BASE_URL__.'/css/slick-theme.min.css' , array(), _S_VERSION );
+	wp_enqueue_style( 'slick-theme', __BASE_URL__.'/css/jquery.mmenu.all' , array(), _S_VERSION );
+	wp_enqueue_style( 'style', __BASE_URL__.'/css/style.css' , array(), _S_VERSION );
+	wp_enqueue_style( 'responsive', __BASE_URL__.'/css/responsive.css' , array(), _S_VERSION );
 
-	wp_enqueue_script( 'noithat-navigation', get_template_directory_uri() . '/js/navigation.js', array(), _S_VERSION, true );
-
-	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
-		wp_enqueue_script( 'comment-reply' );
-	}
+	wp_enqueue_script( 'jquery-js', __BASE_URL__.'/js/jquery.min.js' , array(), _S_VERSION, true );
+	wp_enqueue_script( 'bootstrap-js', __BASE_URL__.'/js/bootstrap.min.js' , array(), _S_VERSION, true );
+	wp_enqueue_script( 'bootstrap-js', __BASE_URL__.'/js/jquery.mmenu.all' , array(), _S_VERSION, true );
+	wp_enqueue_script( 'slick-js', __BASE_URL__.'/js/slick.min.js' , array(), _S_VERSION, true );
+	wp_enqueue_script( 'wow-js', __BASE_URL__.'/js/wow.min.js' , array(), _S_VERSION, true );
+	wp_enqueue_script( 'private-js', __BASE_URL__.'/js/private.js' , array(), _S_VERSION, true );
 }
 add_action( 'wp_enqueue_scripts', 'noithat_scripts' );
 

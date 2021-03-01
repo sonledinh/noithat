@@ -1,0 +1,199 @@
+
+@font-face {
+    font-family: 'Be Vietnam';
+    src: url('../fonts/be/BeVietnam-ExtraBoldItalic.eot');
+    src: url('../fonts/be/BeVietnam-ExtraBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/be/BeVietnam-ExtraBoldItalic.woff2') format('woff2'),
+        url('../fonts/be/BeVietnam-ExtraBoldItalic.woff') format('woff'),
+        url('../fonts/be/BeVietnam-ExtraBoldItalic.ttf') format('truetype');
+    font-weight: 800;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Be Vietnam';
+    src: url('../fonts/be/BeVietnam-ThinItalic.eot');
+    src: url('../fonts/be/BeVietnam-ThinItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/be/BeVietnam-ThinItalic.woff2') format('woff2'),
+        url('../fonts/be/BeVietnam-ThinItalic.woff') format('woff'),
+        url('../fonts/be/BeVietnam-ThinItalic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Be Vietnam';
+    src: url('../fonts/be/BeVietnam-Regular.eot');
+    src: url('../fonts/be/BeVietnam-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/be/BeVietnam-Regular.woff2') format('woff2'),
+        url('../fonts/be/BeVietnam-Regular.woff') format('woff'),
+        url('../fonts/be/BeVietnam-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Be Vietnam';
+    src: url('../fonts/be/BeVietnam-Italic.eot');
+    src: url('../fonts/be/BeVietnam-Italic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/be/BeVietnam-Italic.woff2') format('woff2'),
+        url('../fonts/be/BeVietnam-Italic.woff') format('woff'),
+        url('../fonts/be/BeVietnam-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Be Vietnam';
+    src: url('../fonts/be/BeVietnam-ExtraBold.eot');
+    src: url('../fonts/be/BeVietnam-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/be/BeVietnam-ExtraBold.woff2') format('woff2'),
+        url('../fonts/be/BeVietnam-ExtraBold.woff') format('woff'),
+        url('../fonts/be/BeVietnam-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Be Vietnam';
+    src: url('../fonts/be/BeVietnam-BoldItalic.eot');
+    src: url('../fonts/be/BeVietnam-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/be/BeVietnam-BoldItalic.woff2') format('woff2'),
+        url('../fonts/be/BeVietnam-BoldItalic.woff') format('woff'),
+        url('../fonts/be/BeVietnam-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Be Vietnam';
+    src: url('../fonts/be/BeVietnam-Bold.eot');
+    src: url('../fonts/be/BeVietnam-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/be/BeVietnam-Bold.woff2') format('woff2'),
+        url('../fonts/be/BeVietnam-Bold.woff') format('woff'),
+        url('../fonts/be/BeVietnam-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Be Vietnam';
+    src: url('../fonts/be/BeVietnam-SemiBold.eot');
+    src: url('../fonts/be/BeVietnam-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/be/BeVietnam-SemiBold.woff2') format('woff2'),
+        url('../fonts/be/BeVietnam-SemiBold.woff') format('woff'),
+        url('../fonts/be/BeVietnam-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Be Vietnam';
+    src: url('../fonts/be/BeVietnam-Thin.eot');
+    src: url('../fonts/be/BeVietnam-Thin.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/be/BeVietnam-Thin.woff2') format('woff2'),
+        url('../fonts/be/BeVietnam-Thin.woff') format('woff'),
+        url('../fonts/be/BeVietnam-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Be Vietnam';
+    src: url('../fonts/be/BeVietnam-Medium.eot');
+    src: url('../fonts/be/BeVietnam-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/be/BeVietnam-Medium.woff2') format('woff2'),
+        url('../fonts/be/BeVietnam-Medium.woff') format('woff'),
+        url('../fonts/be/BeVietnam-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Be Vietnam';
+    src: url('../fonts/be/BeVietnam-Light.eot');
+    src: url('../fonts/be/BeVietnam-Light.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/be/BeVietnam-Light.woff2') format('woff2'),
+        url('../fonts/be/BeVietnam-Light.woff') format('woff'),
+        url('../fonts/be/BeVietnam-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Be Vietnam';
+    src: url('../fonts/be/BeVietnam-MediumItalic.eot');
+    src: url('../fonts/be/BeVietnam-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/be/BeVietnam-MediumItalic.woff2') format('woff2'),
+        url('../fonts/be/BeVietnam-MediumItalic.woff') format('woff'),
+        url('../fonts/be/BeVietnam-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Be Vietnam';
+    src: url('../fonts/be/BeVietnam-SemiBoldItalic.eot');
+    src: url('../fonts/be/BeVietnam-SemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/be/BeVietnam-SemiBoldItalic.woff2') format('woff2'),
+        url('../fonts/be/BeVietnam-SemiBoldItalic.woff') format('woff'),
+        url('../fonts/be/BeVietnam-SemiBoldItalic.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Lora';
+    src: url('../fonts/lora/Lora-Regular.eot');
+    src: url('../fonts/lora/Lora-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/lora/Lora-Regular.woff2') format('woff2'),
+        url('../fonts/lora/Lora-Regular.woff') format('woff'),
+        url('../fonts/lora/Lora-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lora';
+    src: url('../fonts/lora/Lora-Bold.eot');
+    src: url('../fonts/lora/Lora-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/lora/Lora-Bold.woff2') format('woff2'),
+        url('../fonts/lora/Lora-Bold.woff') format('woff'),
+        url('../fonts/lora/Lora-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lora';
+    src: url('../fonts/lora/Lora-Italic.eot');
+    src: url('../fonts/lora/Lora-Italic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/lora/Lora-Italic.woff2') format('woff2'),
+        url('../fonts/lora/Lora-Italic.woff') format('woff'),
+        url('../fonts/lora/Lora-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Lora';
+    src: url('../fonts/lora/Lora-BoldItalic.eot');
+    src: url('../fonts/lora/Lora-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/lora/Lora-BoldItalic.woff2') format('woff2'),
+        url('../fonts/lora/Lora-BoldItalic.woff') format('woff'),
+        url('../fonts/lora/Lora-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+
+$lora: 'Lora';
+$be: 'Be Vietnam';
+.be {
+    font-family: $be;
+    font-weight: normal;
+}
+.lora {
+    font-family: $lora;
+    font-weight: normal;
+}
